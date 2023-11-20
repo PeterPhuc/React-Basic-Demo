@@ -1,0 +1,92 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-size: 400% 400%;
+    height: auto;
+}
+.App .button-wrapper{
+    padding-top: 8px;
+}
+.App .button-33, .App .input_css{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.App .button-33:hover, .App .input_css:hover {
+    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+    color: #19ac4f;
+}
+.App .button-33:hover:after, .App .input_css:hover:after {
+    content: "Cập Nhật";
+    display: block;
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: white;
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    top: -31px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.App .button-33:hover:before, .App .input_css:hover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: solid;
+    border-color: rgba(51, 51, 51, 0.8) transparent transparent transparent;
+    border-width: 6px;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.App textarea {
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Tùy chỉnh màu nền khi hover */
+  .App textarea:hover {
+    background-color: #f0f0f0;
+  }
+  .App a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.App li:hover{
+    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+    color: #19ac4f;
+}
+.App li{
+    list-style: none;
+    padding: 10px; 
+}
+.App ul{
+    display: flex;
+}
+.App .div_link{
+    padding: 10px;
+}
