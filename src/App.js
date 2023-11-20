@@ -28,6 +28,13 @@ import Routing from './components/codeSplitting/Muc5/Routing';
 
 import DemoHook from './components/hooks/demo-hook';
 
+import DemoBrowserRouter from './components/Demo-router/Browser-router/demo-browser-rt';
+import DemoHashRouter from './components/Demo-router/Hash-router/demo-hash-rt';
+import DemoRoute from './components/Demo-router/Route/demo-route';
+import RouteParams from './components/Demo-router/RouteParams/DemoRouter';
+import NestedRoute from './components/Demo-router/NestedRoute/DemoRouter';
+import Link_Navlink from './components/Demo-router/Link-NavLink/DemoLink_Navlink';
+
 import ExampleComponent from './components/style/demostyle';
 import StyledComponent from './components/style/demostyle';
 import DynamicComponent from './components/style/demostyle';
@@ -82,14 +89,30 @@ function App() {
       </div>
 
       <DemoHook /> */}
+
+      <DemoBrowserRouter />
+      <DemoHashRouter />
+    <DemoRoute />
+
+          <div className="App">
+            <RouteParams />
+          </div>
+
+          <div className="App">
+              <NestedRoute />
+          </div>
+
+
+          <div className="App">
+              <Link_Navlink />
+          </div>
+
       <div className="App"> 
           {/* <ExampleComponent/> */}
           {/* <StyledComponent/> */}
           {/* <DynamicComponent/> */}
           <ListComponent />
       </div> 
-      
-      {/* <ListComponent /> */}
     </>
   );
 }
