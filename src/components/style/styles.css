@@ -1,0 +1,9 @@
+/* styles.css */
+.myStyle {
+    color: blue;
+    font-size: 16px;
+}
+.otherStyle {
+    background-color: lightgray;
+    padding: 10px;
+}

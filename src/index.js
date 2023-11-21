@@ -25,7 +25,6 @@ root.render(
     //     <Element />
     //     <App />
     // </>
-
     <App />
 );
 // setTimeout(()=>{

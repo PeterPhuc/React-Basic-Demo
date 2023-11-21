@@ -1,10 +1,9 @@
 // Import React
 import React from 'react';
 
-import DemoJSX from './components/tongquanJSX/DemoJSX';
-// import Table from './components/Demo-phan-III/fragments';
-
 import './css/css.css';
+
+import DemoJSX from './components/tongquanJSX/DemoJSX';
 
 import MyComponent from './components/tongquanComponent/Function-component/DemoComponent';
 import ClassComponents from './components/tongquanComponent/Class-component/DemoComponent';
@@ -34,36 +33,40 @@ import DemoRoute from './components/Demo-router/Route/demo-route';
 import RouteParams from './components/Demo-router/RouteParams/DemoRouter';
 import NestedRoute from './components/Demo-router/NestedRoute/DemoRouter';
 import Link_Navlink from './components/Demo-router/Link-NavLink/DemoLink_Navlink';
+import RedirectPage from './components/Demo-router/Redirect/redirect';
 
 import ExampleComponent from './components/style/demostyle';
 import StyledComponent from './components/style/demostyle';
 import DynamicComponent from './components/style/demostyle';
 import ListComponent from './components/style/demostyle';
+import DemoStyleSheet from './components/style/stylesheet';
+import ModuleStyleDemo from './components/style/ModuleStyleDemo';
+import StyledComponentDemo from './components/style/styleComponent';
 
 // Định nghĩa functional component App
 function App() {
   return (
     <>
-      <DemoJSX />
+      {/* <DemoJSX />
       
       <div className="App">
           <MyComponent name="Alice" message="Welcome to React!" />
       </div>
-      <div className="App">    {/* Mở một thẻ div với class 'App' */}
-          <ClassComponents />    {/*Render component 'ClassComponents'*/}
-      </div>                   {/* Đóng thẻ div */}
+      <div className="App">    
+          <ClassComponents />   
+      </div>                   
 
-      <div className="App"> {/* Mở một thẻ div với class 'App' */}
-          <DmoState_1 /> {/* Render component 'DmoState_1' */}
-      </div> {/* Đóng thẻ div */}
+      <div className="App">
+          <DmoState_1 /> 
+      </div> 
 
-      <div className="App"> {/* Mở một thẻ div với class 'App' */}
-          <DmoState /> {/* Render component 'DmoState' */}
-      </div> {/* Đóng thẻ div */}
+      <div className="App"> 
+          <DmoState />
+      </div>  */}
 
-      <div className="App"> {/* Mở một thẻ div với class 'App' */}
-        <DmoProps /> {/* Render component 'DmoProps' */}
-      </div> {/* Đóng thẻ div */}
+      {/* <div className="App"> 
+        <DmoProps /> 
+      </div> */}
 
       
       {/* <React.Fragment>
@@ -90,11 +93,11 @@ function App() {
 
       <DemoHook /> */}
 
-      <DemoBrowserRouter />
+      {/* <DemoBrowserRouter />
       <DemoHashRouter />
-    <DemoRoute />
+    <DemoRoute /> */}
 
-          <div className="App">
+          {/* <div className="App">
             <RouteParams />
           </div>
 
@@ -105,14 +108,19 @@ function App() {
 
           <div className="App">
               <Link_Navlink />
-          </div>
+          </div> */}
 
-      <div className="App"> 
+          {/* <RedirectPage /> */}
+
+      {/* <div className="App">  */}
           {/* <ExampleComponent/> */}
           {/* <StyledComponent/> */}
           {/* <DynamicComponent/> */}
-          <ListComponent />
-      </div> 
+          {/* <ListComponent /> */}
+      {/* </div>  */}
+      {/* <DemoStyleSheet /> */}
+      {/* <ModuleStyleDemo /> */}
+      <StyledComponentDemo />
     </>
   );
 }
