@@ -1,0 +1,18 @@
+{
+    "editor.fontWeight": "normal",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorStyle": "line",
+	"editor.cursorWidth": 3,
+    "editor.suggestLineHeight": 0,
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 2,
+    "editor.mouseWheelZoom": true,
+
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#f0ff6c",
+		// "terminalCursor.foreground": "#FF75D8"
+	},
+}

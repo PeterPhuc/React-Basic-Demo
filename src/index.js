@@ -6,6 +6,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './logo.svg'; 
+import './../public/logo192.png';
+import './../public/logo512.png';
 
 // const Element = () => (<h1>Xin chào, {formatName(user)}! </h1>);
 // function formatName(user) {

@@ -71,7 +71,7 @@ class Table extends React.Component {
     return (
       <table style={css2}>
         <tr>
-          <Columns></Columns>     {/* Một component tên là Columns */}
+          <Columns />  {/* Một component tên là Columns */}
         </tr>
       </table>
     );
